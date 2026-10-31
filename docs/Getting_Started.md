@@ -9,11 +9,9 @@
 ## Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/TheFailureOrNot/glitchforge
 cd glitchforge-rust
 ```
-
-Replace `<repository-url>` with the actual URL of the project.
 
 ## Build the Project
 

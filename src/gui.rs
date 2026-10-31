@@ -1117,7 +1117,21 @@ impl eframe::App for GlitchForgeApp {
 
 fn rgb_to_color_image(image: &RgbImage) -> egui::ColorImage {
     // Keep GPU preview textures bounded. All processing and exports remain full-resolution.
-    let thumb = image::imageops::thumbnail(image, 2048, 2048);
+    // Use resize with aspect ratio preservation instead of thumbnail.
+    let (width, height) = image.dimensions();
+    let max_dim = 2048;
+    let (new_width, new_height) = if width > max_dim || height > max_dim {
+        let ratio = (max_dim as f32) / (width.max(height) as f32);
+        ((width as f32 * ratio) as u32, (height as f32 * ratio) as u32)
+    } else {
+        (width, height)
+    };
+    let thumb = image::imageops::resize(
+        image,
+        new_width,
+        new_height,
+        image::imageops::FilterType::Lanczos3,
+    );
     egui::ColorImage::from_rgb(
         [thumb.width() as usize, thumb.height() as usize],
         thumb.as_raw(),

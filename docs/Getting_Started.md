@@ -38,6 +38,7 @@ Or run the executable directly:
 ## Editing Effects
 
 The effect system resides in `src/effects.rs`. To add a new effect:
+
 1. Define a struct implementing the `Effect` trait.
 2. Register the effect in the `EffectRegistry`.
 3. Use the effect in your game logic.

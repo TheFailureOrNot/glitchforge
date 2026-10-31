@@ -1,13 +1,20 @@
-# Source‑Available Personal‑Use License (Version 1.0)
+# Source-Available Personal License (ASAPL)
 
-Copyright (c) 2026, @thefailurehere. All rights reserved.
+Copyright (c) 2026, thefailurehere
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and merge the Software for personal, non‑commercial purposes, and to create personal derivative works, provided that the following conditions are met:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to view, study, and modify the Software subject to the following conditions:
 
-1. **Personal Use Only**: The Software may be used solely for personal, educational, or non‑commercial research purposes. Commercial use, including but not limited to selling, licensing, or distributing the Software (or any derivative works) for profit, is expressly prohibited.
-2. **No Redistribution for Sale**: You may not distribute, sell, or lease the Software or any derivative works, either in original or modified form, to any third party for any monetary compensation.
-3. **Attribution**: You must retain the above copyright notice and this permission notice in all copies or substantial portions of the Software.
-4. **Disclaimer of Warranty**: The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non‑infringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
-5. **Modification**: You may modify the Software for personal use, but any public distribution of modified versions must also be under this same license and comply with all the above terms.
+## 1. Permissions (What You Can Do)
 
-By using the Software, you acknowledge that you have read this license, understand it, and agree to be bound by its terms.
+* **View Source:** You are free to inspect and study the source code.
+* **Personal Editing:** You may modify, tweak, and adapt the Software locally for your own **personal, private, and non-commercial use**.
+
+## 2. Restrictions (What You Cannot Do)
+
+* **No Commercial Sale:** You **must not** sell, rent, lease, sub-license, host as a paid service, or monetize the Software or any modified versions of it.
+* **No Defacement or Tampering:** You **must not** remove, alter, obscure, or deface any original copyright notices, authorship credits, branding, or license terms embedded within the Software.
+* **No Misrepresentation:** You **must not** claim authorship of the original Software or present modified versions in a way that damages the reputation, integrity, or original intent of the creator.
+
+## 3. Warranty and Liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
